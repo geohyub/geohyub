@@ -37,11 +37,22 @@ and <a href="assets/make_visuals_2.py">assets/make_visuals_2.py</a>.</sub>
 
 #### Machine learning
 
-<img alt="MarineSeismicAI: first-break model learning, then MC-Dropout uncertainty and QC flags" src="assets/ai-firstbreak.gif" width="100%">
+<table>
+<tr>
+<td width="50%"><img alt="MarineSeismicAI: first-break model learning, then MC-Dropout uncertainty and QC flags" src="assets/ai-firstbreak.gif" width="100%"></td>
+<td width="50%"><img alt="SeismicDenoising: DnCNN learning to remove noise, PSNR rising" src="assets/denoise-dncnn.gif" width="100%"></td>
+</tr>
+<tr>
+<td width="50%"><img alt="MagUXO: 1-D CNN converging, then the ensemble vote" src="assets/maguxo-cnn.gif" width="100%"></td>
+<td width="50%"><img alt="MagEmbed: embedding clusters and nearest-neighbour target search" src="assets/magembed-knn.gif" width="100%"></td>
+</tr>
+</table>
 
-<sub>MarineSeismicAI's own <code>V7UncertaintyModel</code> and <code>CombinedV7Loss</code>, trained here for a few minutes on
-synthetic gathers (not the production weights): picks converge epoch by epoch, then MC-Dropout gives
-a per-trace spread and GOOD / REVIEW / REJECT flags.</sub>
+<sub>Each model is the repo's own class, trained here for seconds to minutes on synthetic data
+(not the production weights): MarineSeismicAI <code>V7UncertaintyModel</code> with MC-Dropout flags,
+SeismicDenoising <code>DnCNN</code>, MagUXO <code>CnnClassifier</code> + <code>EnsembleClassifier</code>,
+and MagEmbed cosine k-NN search over MagUXO CNN features (example queries).
+Rendered by <a href="assets/make_visuals_2.py">make_visuals_2.py</a> and <a href="assets/make_visuals_ml.py">make_visuals_ml.py</a>.</sub>
 
 ### GeoView
 
