@@ -40,7 +40,6 @@ and HandoverGenerator checks the delivery package before it leaves.
 | Program | What it does |
 |---|---|
 | MBESQC | Multibeam QC: motion, offsets, SVP, density and coverage, DQR reports |
-| CARISBoresight | Helper for boresight (patch test) calibration |
 | CATZOCAssigner | Assigns CATZOC zone-of-confidence categories |
 | SVPBatchViewer | Batch viewer for sound velocity profiles |
 | MBESPerfExport | Exports multibeam performance metrics |
@@ -75,7 +74,6 @@ and HandoverGenerator checks the delivery package before it leaves.
 | Program | What it does |
 |---|---|
 | TidalWorks | Tidal and current harmonic analysis (UTide), reports |
-| TideBedPy | Tidal correction for survey data |
 | TideGuard | Validates tide data before it is applied |
 | PValue | Weather-window (P-value) simulator for planning offshore operations |
 
