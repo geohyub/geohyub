@@ -26,8 +26,7 @@ sys.path.insert(0, f"{R}/tidalworks")
 from tidalworks.ocean_toolkit.harmonic.analysis import harmonic_predict
 
 THEMES = {
-    "light": dict(bg="#F6F1E7", ink="#1F2A33", mute="#7A776E", hair="#DDD4C2", acc="#9A4F2B", bad="#B0342A"),
-    "dark":  dict(bg="#11161B", ink="#E8E2D6", mute="#8E8E86", hair="#2A333C", acc="#D08A5C", bad="#E0675B"),
+    "light": dict(bg="#FFFFFF", ink="#1F2328", mute="#6E7781", hair="#E6E9ED", acc="#0969DA", bad="#CF222E"),
 }
 W, H, DPI = 6.4, 2.6, 100
 plt.rcParams.update({"font.family": "DejaVu Sans Mono", "font.size": 8})
@@ -157,7 +156,7 @@ def tide(th, name):
 
 
 for theme, th in THEMES.items():
-    seismic(th, f"seismic-firstbreak-{theme}.gif")
-    mag(th, f"magqc-fourthdiff-{theme}.gif")
-    tide(th, f"tidalworks-tide-{theme}.gif")
+    seismic(th, "seismic-firstbreak.gif")
+    mag(th, "magqc-fourthdiff.gif")
+    tide(th, "tidalworks-tide.gif")
 print("done")

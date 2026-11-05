@@ -7,24 +7,15 @@ geohyub@gmail.com · [GeoView version index](https://github.com/geohyub/geoview-
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/seismic-firstbreak-dark.gif">
-  <img alt="SeismicProcessor STA/LTA first-break picker running on a synthetic shot gather" src="assets/seismic-firstbreak-light.gif" width="100%">
-</picture>
+<img alt="SeismicProcessor STA/LTA first-break picker running on a synthetic shot gather" src="assets/seismic-firstbreak.gif" width="100%">
 
 <table>
 <tr>
 <td width="50%">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/magqc-fourthdiff-dark.gif">
-  <img alt="MagQC 4th-difference noise check on a synthetic magnetometer line" src="assets/magqc-fourthdiff-light.gif" width="100%">
-</picture>
+<img alt="MagQC 4th-difference noise check on a synthetic magnetometer line" src="assets/magqc-fourthdiff.gif" width="100%">
 </td>
 <td width="50%">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/tidalworks-tide-dark.gif">
-  <img alt="TidalWorks harmonic tide prediction over 15 days" src="assets/tidalworks-tide-light.gif" width="100%">
-</picture>
+<img alt="TidalWorks harmonic tide prediction over 15 days" src="assets/tidalworks-tide.gif" width="100%">
 </td>
 </tr>
 </table>
@@ -56,6 +47,6 @@ TypeScript · Next.js · Tauri · .NET
 
 ### Design
 
-Light theme, paper-cream background, hairline structure, no decoration.
+Light theme, white background, hairline structure, no decoration.
 Data density as precision. Typography as hierarchy.
 A QC result that was not checked is shown as not checked, never as a pass.
