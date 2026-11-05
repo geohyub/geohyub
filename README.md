@@ -1,6 +1,6 @@
 ## Junhyub Kim · 김준협
 
-Marine geophysical surveyor at GeoView, Seoul.
+Marine geophysical surveyor at GeoView, Busan.
 I write the in-house software we use to QC, process and deliver survey data.
 
 geohyub@gmail.com · [GeoView version index](https://github.com/geohyub/geoview-updates)
