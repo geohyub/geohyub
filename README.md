@@ -24,11 +24,24 @@ Rendered by <a href="assets/make_pipeline_gif.py">assets/make_pipeline_gif.py</a
 <td width="50%"><img alt="MBESQC: sounding density grid filling line by line, with holidays flagged" src="assets/mbesqc-density.gif" width="100%"></td>
 <td width="50%"><img alt="SeismicProcessor: semblance velocity analysis and NMO correction of a CMP gather" src="assets/seismic-velocity.gif" width="100%"></td>
 </tr>
+<tr>
+<td width="50%"><img alt="NavQC: line QC as the vessel runs, ending in UKOOA P1/90 records" src="assets/navqc-track.gif" width="100%"></td>
+<td width="50%"><img alt="GT suite: CPT sounding classified into Robertson soil behaviour types" src="assets/gt-cpt.gif" width="100%"></td>
+</tr>
 </table>
 
-<sub>Side-scan QC, magnetic target detection, multibeam density and seismic velocity analysis,
+<sub>Side-scan QC, magnetic target detection, multibeam density, seismic velocity analysis, navigation QC and CPT classification,
 each driven by the program's own functions (named under each panel) on synthetic data.
-QC limits in these demos are illustrative. Rendered by <a href="assets/make_visuals.py">assets/make_visuals.py</a>.</sub>
+QC limits in these demos are illustrative. Rendered by <a href="assets/make_visuals.py">assets/make_visuals.py</a>
+and <a href="assets/make_visuals_2.py">assets/make_visuals_2.py</a>.</sub>
+
+#### Machine learning
+
+<img alt="MarineSeismicAI: first-break model learning, then MC-Dropout uncertainty and QC flags" src="assets/ai-firstbreak.gif" width="100%">
+
+<sub>MarineSeismicAI's own <code>V7UncertaintyModel</code> and <code>CombinedV7Loss</code>, trained here for a few minutes on
+synthetic gathers (not the production weights): picks converge epoch by epoch, then MC-Dropout gives
+a per-trace spread and GOOD / REVIEW / REJECT flags.</sub>
 
 ### GeoView
 
