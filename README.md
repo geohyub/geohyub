@@ -15,6 +15,21 @@ UHR lines (one deliberately truncated, which the SEG-Y header check fails), writ
 Re-importing a file updates the row instead of duplicating it.
 Rendered by <a href="assets/make_pipeline_gif.py">assets/make_pipeline_gif.py</a>.</sub>
 
+<table>
+<tr>
+<td width="50%"><img alt="SonarQC: side-scan waterfall built ping by ping with altitude, track and noise QC" src="assets/sonarqc-waterfall.gif" width="100%"></td>
+<td width="50%"><img alt="MagUXO: Euler deconvolution solutions clustering on buried magnetic dipoles" src="assets/maguxo-euler.gif" width="100%"></td>
+</tr>
+<tr>
+<td width="50%"><img alt="MBESQC: sounding density grid filling line by line, with holidays flagged" src="assets/mbesqc-density.gif" width="100%"></td>
+<td width="50%"><img alt="SeismicProcessor: semblance velocity analysis and NMO correction of a CMP gather" src="assets/seismic-velocity.gif" width="100%"></td>
+</tr>
+</table>
+
+<sub>Side-scan QC, magnetic target detection, multibeam density and seismic velocity analysis,
+each driven by the program's own functions (named under each panel) on synthetic data.
+QC limits in these demos are illustrative. Rendered by <a href="assets/make_visuals.py">assets/make_visuals.py</a>.</sub>
+
 ### GeoView
 
 In-house tools for offshore survey work, from the vessel to the client delivery.
